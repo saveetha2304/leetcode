@@ -10,9 +10,6 @@
  */
 class Solution {
     public ListNode reverseBetween(ListNode head, int left, int right) {
-       
-
-       
         if (head == null || left == right) {
             return head;
         }
